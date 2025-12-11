@@ -1,0 +1,584 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Great+Vibes&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif; 
+    
+    
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+background-color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(251, 247, 247);
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px 10px ;
+    
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10000;   
+
+}
+.spider{
+    border-radius: 2px;
+}
+
+.name{
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(232, 0, 0);
+
+    font-family: "Roboto", sans-serif;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+    
+    
+
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+    color:aliceblue;
+    
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+
+}
+.myname{
+    letter-spacing: 4px;
+    color: rgb(232, 0, 0);
+    font-size: 70px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+  
+}
+p{
+    /* font-family: "Buda", serif;*/
+     font-family: "Red Hat Display", sans-serif;
+    color:white;
+    width: 80%;
+    font-size: 17px;
+    font-style:italic;
+
+  
+
+}
+.icons div{
+    color:red;
+    display: inline-block;
+    border:2px solid red;
+    justify-content:space-around;
+    border-radius: 10%;
+    position: relative;
+    
+
+}
+.icons div:hover{
+    box-shadow: 0px 0px 25px rgb(218, 41, 41);
+    transition:0.7s;
+    bottom: 7px;
+     border:2px solid rgb(253, 250, 253);
+     cursor: pointer;
+
+
+
+}
+
+
+#insta:hover{
+    background: linear-gradient(red yellow);
+    color: rgb(224, 20, 50);
+}
+
+
+
+.icons i{
+    font-size: 25px;padding: 6px 6px;
+
+    
+}
+.icons{
+display: flex;
+gap: 10px;
+
+
+}
+.twobox{
+    display: flex;
+    gap:15px;
+    
+    align-items: center;
+}
+.twobox .hireme{
+    color: rgb(0, 0, 0);
+    border: 2px solid red;
+    padding: 13px 30px;
+    display: flex;
+    border-radius: 25px;
+    background-color: red;
+    position: relative;
+    gap: 5px;
+    
+
+}
+.hireme:hover{
+     box-shadow: 0px 0px 40px red;
+
+    transition: 1s;
+    bottom: 2px;
+     cursor: pointer;
+}
+
+
+.download{
+    color: rgb(181, 5, 5);
+    border: 2px solid red;
+    padding: 13px 30px;
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+ box-shadow: 0px 0px 40px red;
+ gap: 3px;
+
+
+}
+.download:hover{
+    box-shadow: 0px 0px 40px red;
+    transition: 1s;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+
+
+
+h2{
+     font-size: 60px;
+    letter-spacing: 2px;
+    color:red;
+    
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+
+
+}
+span{
+     letter-spacing: 2px;
+    color: rgb(255, 253, 253);
+    font-size: 35px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+
+
+}
+
+
+
+.list{
+    list-style: none;
+    
+    
+}
+li{
+    display: inline-block;
+    padding:0 30px;
+}
+ul li a:hover{
+    color:red;
+    transition: 0.5s;
+    
+    
+}
+ul li .active{
+    color: red;
+}
+
+
+.firstpage{
+    height: 100vh;
+    width: 100%;
+display: flex;
+
+}
+.secondpage{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    
+
+
+
+    
+
+}
+.img1{
+     height: 600px;
+     width: 300px;
+ position: absolute;
+    
+     
+    
+    
+
+     
+      
+}
+
+
+.img2{
+    height: 600px;
+     width: 300px;
+
+    
+}
+
+.left{
+     height: 100vh;
+    width: 40%;
+
+    z-index: 1;    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+  
+}
+.right{
+    height: 100vh;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 40px;
+
+    position: relative;
+    
+}
+
+.left2{
+    
+    height: 130vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+    
+      
+    
+}
+.education{
+    height: 100px;
+    width: 450px;
+    /* border: 1px solid rgb(148, 132, 148);*/
+    border-radius: 10px;
+    background-color:transparent;
+    position: relative;
+  
+    gap: 20px;  display: flex;
+    align-items: center;
+
+
+}
+.education:hover{
+      border: 1px solid rgb(255, 255, 255);
+      transition: 0.7s;
+      left: 11px;
+       box-shadow: 5px 5px 20px red;
+
+}
+
+
+.location{
+     height: 100px;
+    width: 750px;
+   /* border: 1px solid rgb(148, 132, 148);*/
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    gap: 20px;  display: flex;
+    align-items: center;
+    
+
+}
+.location:hover{
+      border:1px solid rgb(255, 255, 255);
+      transition: 0.7s;
+      left: 11px;
+       box-shadow: 5px 5px 20px red;
+
+}
+
+.experience{
+         height: 100px;
+    width: 500px;
+   /* border: 1px solid rgb(148, 132, 148);*/
+    border-radius: 10px;
+background-color: transparent;
+position: relative;
+  gap: 20px;  display: flex;
+    align-items: center;
+
+
+}
+.experience:hover{
+      border:1px solid rgb(255, 255, 255);
+      transition: 0.7s;
+      left: 11px;
+      box-shadow: 5px 5px 20px red;
+
+}
+h4{
+     font-family: "Buda", serif;
+  font-weight: 700;
+letter-spacing: 2PX;
+font-size: 25px;
+}
+h5{
+     font-family: "Buda", serif;
+     font-weight: 0;
+     
+    
+}
+
+
+.right2{
+ height: 130vh;
+    width: 40%;
+z-index: 1;    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdpage{
+      height: 100vh;
+    width: 100%;
+    display: flex;
+    
+
+    
+
+}
+.spi{
+    height: 250px;
+    width: 250px;
+    
+}
+.blur{
+    
+   /* height: 200px;
+    width: 200px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: calc(100% - 80px);
+    top: calc(50vh - 100px);
+    z-index: 0;
+}
+
+    
+
+.left3{
+     height: 100vh;
+    width: 50%;
+
+ 
+position: relative;
+ display: flex;flex-direction: column; 
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+
+}
+.right3{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+ display: flex;flex-direction: column; 
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+
+    
+
+    
+}
+.front{
+     letter-spacing: 4px;
+    color: rgb(232, 0, 0);
+    font-size: 70px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+}
+.end{
+    font-size: 60px;
+    letter-spacing: 2px;
+    color:aliceblue;
+    
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-style:italic;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 10;
+
+}
+.skills1 div{
+    height: 200px;
+    width: 280px;
+     border: 2px solid rgb(185, 0, 0);
+     border-radius: 15px;
+     background-color: rgb(20, 18, 20);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 9px;
+
+
+}
+.skills1 div:hover{
+    box-shadow: 0px 0px 30px  red;
+    position: relative;
+    bottom: 3px;
+    transition: 0.5s;
+}
+.skills1{
+    display: flex;
+    gap: 30px;
+
+}
+.skills2 div{
+    height: 200px;
+    width: 280px;
+     border: 2px solid rgb(185, 0, 0);
+     border-radius: 15px;
+      background-color: rgb(20, 18, 20);
+       display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 9px;
+
+}
+.skills2 div:hover{
+     box-shadow: 0px 0px 30px  red;
+      position: relative;
+    bottom: 3px;
+    transition: 0.5s;
+}
+
+
+.skills2{
+    display: flex;
+    gap: 30px;
+}
+.skills div i{
+    font-size: 40px;
+    color :rgb(232, 0, 0);
+}
+.skills div h3{
+    font-size: 26px;
+    color: rgb(232, 0, 0);
+}
+.skills div p{
+    font-size: 15px;
+    color: rgb(237, 232, 232);
+
+    
+ font-family: "Allura";
+  font-weight: 100;
+  font-style: normal;
+
+}
+.skillsright{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10;
+
+}
+
+.skillsright div{
+     height: 120px;
+    width: 400px;
+     border: 2px solid rgb(185, 0, 0);
+     border-radius: 15px;
+      background-color: rgb(20, 18, 20);
+       display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+
+}
+.skillsright div:hover{
+     box-shadow: 0px 0px 30px  red;
+      position: relative;
+    bottom: 3px;
+    transition: 0.5s;
+}
+.skillsright div i{
+    font-size: 35px;
+    color :rgb(232, 0, 0);
+}
+.skillsright div h3{
+    font-size: 20px;
+    color: rgb(232, 0, 0);
+}
+.skillsright div p{
+    font-size: 15px;
+    color: rgb(237, 232, 232);
+
+    
+ font-family: "Allura";
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
