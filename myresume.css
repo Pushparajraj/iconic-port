@@ -40,12 +40,14 @@ header{
     cursor: pointer;
     font-size: 20px;
     letter-spacing: 2px;
-    color: rgb(232, 0, 0);
+    color: purple;
 
     font-family: "Roboto", sans-serif;
     margin-right: auto;
     position: relative;
     left: 20px;
+
+    
     
     
 
@@ -59,15 +61,27 @@ h1{
   font-weight: bold;
   font-style:italic;
 
+  
+     background: -webkit-linear-gradient(white,black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+
 }
 .myname{
     letter-spacing: 4px;
-    color: rgb(232, 0, 0);
+    color: rgb(126, 6, 163);
     font-size: 70px;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
   font-style:italic;
+
   
+  
+     background: -webkit-linear-gradient(purple,black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 p{
     /* font-family: "Buda", serif;*/
@@ -81,9 +95,9 @@ p{
 
 }
 .icons div{
-    color:red;
+    color:purple;
     display: inline-block;
-    border:2px solid red;
+    border:2px solid purple;
     justify-content:space-around;
     border-radius: 10%;
     position: relative;
@@ -91,7 +105,7 @@ p{
 
 }
 .icons div:hover{
-    box-shadow: 0px 0px 25px rgb(218, 41, 41);
+    box-shadow: 0px 0px 25px purple;
     transition:0.7s;
     bottom: 7px;
      border:2px solid rgb(253, 250, 253);
@@ -99,12 +113,6 @@ p{
 
 
 
-}
-
-
-#insta:hover{
-    background: linear-gradient(red yellow);
-    color: rgb(224, 20, 50);
 }
 
 
@@ -123,23 +131,26 @@ gap: 10px;
 .twobox{
     display: flex;
     gap:15px;
-    
     align-items: center;
+
+    
 }
 .twobox .hireme{
     color: rgb(0, 0, 0);
-    border: 2px solid red;
+    border: 2px solid purple;
     padding: 13px 30px;
     display: flex;
     border-radius: 25px;
-    background-color: red;
+   background-color: purple;
     position: relative;
     gap: 5px;
+
+    
     
 
 }
 .hireme:hover{
-     box-shadow: 0px 0px 40px red;
+     box-shadow: 0px 0px 40px purple;
 
     transition: 1s;
     bottom: 2px;
@@ -148,20 +159,21 @@ gap: 10px;
 
 
 .download{
-    color: rgb(181, 5, 5);
-    border: 2px solid red;
+    color: purple;
+    border: 2px solid purple;
     padding: 13px 30px;
     display: flex;
     border-radius: 25px;
     background-color: rgb(0, 0, 0);
     position: relative;
- box-shadow: 0px 0px 40px red;
+ box-shadow: 0px 0px 40px purple;
  gap: 3px;
+ 
 
 
 }
 .download:hover{
-    box-shadow: 0px 0px 40px red;
+    box-shadow: 0px 0px 40px purple;
     transition: 1s;
     bottom: 2px;
     cursor: pointer;
@@ -173,7 +185,7 @@ gap: 10px;
 h2{
      font-size: 60px;
     letter-spacing: 2px;
-    color:red;
+    color:purple;
     
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
@@ -204,13 +216,13 @@ li{
     padding:0 30px;
 }
 ul li a:hover{
-    color:red;
+    color:purple;
     transition: 0.5s;
     
     
 }
 ul li .active{
-    color: red;
+    color: purple;
 }
 
 
@@ -287,7 +299,7 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:25px;
+    gap:35px;
 
     
       
@@ -296,66 +308,82 @@ display: flex;
 .education{
     height: 100px;
     width: 450px;
-    /* border: 1px solid rgb(148, 132, 148);*/
-    border-radius: 10px;
-    background-color:transparent;
-    position: relative;
-  
-    gap: 20px;  display: flex;
+    gap: 20px; 
+     display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+      border-radius: 15px;     
+    background-color: rgb(20, 18, 20);
+
+
 
 
 }
 .education:hover{
-      border: 1px solid rgb(255, 255, 255);
-      transition: 0.7s;
-      left: 11px;
-       box-shadow: 5px 5px 20px red;
+    
+     box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+    transform: translatex(80px);
+    transition: 0.5s;
+     background-color: rgb(221, 2, 255);
+    border-right: 7px solid white;
+    border-left:7px solid white ;
+    cursor: pointer;
+
 
 }
 
 
 .location{
      height: 100px;
-    width: 750px;
-   /* border: 1px solid rgb(148, 132, 148);*/
-    border-radius: 10px;
-    background-color: transparent;
-    position: relative;
+    width: 450px;
     gap: 20px;  display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+     border-radius: 15px;
+    
+    background-color: rgb(20, 18, 20);
+
     
 
 }
 .location:hover{
-      border:1px solid rgb(255, 255, 255);
-      transition: 0.7s;
-      left: 11px;
-       box-shadow: 5px 5px 20px red;
+box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+    transform: translatex(80px);
+    transition: 0.5s;
+     background-color: rgb(221, 2, 255);
+    border-right: 7px solid white;
+    border-left:7px solid white ;
+    cursor: pointer;
 
 }
 
 .experience{
-         height: 100px;
-    width: 500px;
-   /* border: 1px solid rgb(148, 132, 148);*/
-    border-radius: 10px;
-background-color: transparent;
-position: relative;
-  gap: 20px;  display: flex;
+      height: 100px;
+    width: 450px;
+    gap: 20px;  display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    border-radius: 15px;
+    background-color: rgb(20, 18, 20);
+
 
 
 }
 .experience:hover{
-      border:1px solid rgb(255, 255, 255);
-      transition: 0.7s;
-      left: 11px;
-      box-shadow: 5px 5px 20px red;
+         box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+    transform: translatex(80px);
+    transition: 0.5s;
+     background-color: rgb(221, 2, 255);
+    border-right: 7px solid white;
+    border-left:7px solid white ;
+    cursor: pointer;
 
 }
 h4{
-     font-family: "Buda", serif;
+     
   font-weight: 700;
 letter-spacing: 2PX;
 font-size: 25px;
@@ -390,6 +418,8 @@ z-index: 1;
 .spi{
     height: 250px;
     width: 250px;
+    
+
     
 }
 .blur{
@@ -434,11 +464,17 @@ position: relative;
 }
 .front{
      letter-spacing: 4px;
-    color: rgb(232, 0, 0);
+    color: purple;
     font-size: 70px;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
   font-style:italic;
+
+     background: -webkit-linear-gradient(45deg,purple,rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
 }
 .end{
     font-size: 60px;
@@ -457,24 +493,34 @@ position: relative;
 
 }
 .skills1 div{
-    height: 200px;
-    width: 280px;
-     border: 2px solid rgb(185, 0, 0);
-     border-radius: 15px;
+    height: 250px;
+    width: 250px;
+     border: 2px solid purple;
+    border-radius: 25px;
      background-color: rgb(20, 18, 20);
+   /* background: linear-gradient(to left  bottom,rgb(255, 255, 255),purple);*/
+
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
      gap: 9px;
+     
+    
 
 
 }
 .skills1 div:hover{
-    box-shadow: 0px 0px 30px  red;
-    position: relative;
-    bottom: 3px;
-    transition: 0.5s;
+    box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+   /* position: relative;
+    bottom: 3px;*/
+     transform: rotate(360deg);
+    transition: 0.9s;
+    background-color: rgb(221, 2, 255);
+    border-right: 10px solid white;
+    cursor: pointer;
+    background:rgb(221, 2, 255);
+    
 }
 .skills1{
     display: flex;
@@ -482,11 +528,12 @@ position: relative;
 
 }
 .skills2 div{
-    height: 200px;
-    width: 280px;
-     border: 2px solid rgb(185, 0, 0);
-     border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid purple;
+     border-radius: 25px;
       background-color: rgb(20, 18, 20);
+      /*background: linear-gradient(to left bottom ,rgb(255, 255, 255),purple);*/
        display: flex;
      flex-direction: column;
      justify-content: center;
@@ -495,10 +542,14 @@ position: relative;
 
 }
 .skills2 div:hover{
-     box-shadow: 0px 0px 30px  red;
-      position: relative;
-    bottom: 3px;
-    transition: 0.5s;
+    box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+    transform: rotate(360deg);
+    transition: 0.9s;
+     background-color: rgb(221, 2, 255);
+    border-right: 10px solid white;
+    cursor: pointer;
+     background:rgb(221, 2, 255);
+    
 }
 
 
@@ -508,11 +559,11 @@ position: relative;
 }
 .skills div i{
     font-size: 40px;
-    color :rgb(232, 0, 0);
+    color :purple;
 }
 .skills div h3{
     font-size: 26px;
-    color: rgb(232, 0, 0);
+    color: purple;
 }
 .skills div p{
     font-size: 15px;
@@ -535,8 +586,8 @@ position: relative;
 .skillsright div{
      height: 120px;
     width: 400px;
-     border: 2px solid rgb(185, 0, 0);
-     border-radius: 15px;
+     border: 2px solid purple;
+     border-radius: 25px;
       background-color: rgb(20, 18, 20);
        display: flex;
      flex-direction: column;
@@ -546,18 +597,21 @@ position: relative;
 
 }
 .skillsright div:hover{
-     box-shadow: 0px 0px 30px  red;
-      position: relative;
-    bottom: 3px;
+     box-shadow: 0px 0px 80px  rgb(195, 23, 195);
+    transform: translatex(80px);
     transition: 0.5s;
+     background-color: rgb(221, 2, 255);
+    border-right: 7px solid white;
+    border-left:7px solid white ;
+    cursor: pointer;
 }
 .skillsright div i{
     font-size: 35px;
-    color :rgb(232, 0, 0);
+    color :purple;
 }
 .skillsright div h3{
     font-size: 20px;
-    color: rgb(232, 0, 0);
+    color: purple;
 }
 .skillsright div p{
     font-size: 15px;
@@ -569,7 +623,11 @@ position: relative;
   font-style: normal;
 
 }
+.fourthpage{
+       height: 100vh;
+    width: 100%;
 
+}
 
 
 
