@@ -185,11 +185,12 @@ gap: 10px;
 h2{
      font-size: 60px;
     letter-spacing: 2px;
-    color:red;
+    color:rgb(240, 6, 6);
     
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
   font-style:italic;
+
 
 
 }
