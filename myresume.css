@@ -646,16 +646,15 @@ position: relative;
     color:rgb(0, 0, 0);
 
     font-family: "Roboto", sans-serif;
-    margin-left: 7%;
 }
 .p3{
-    margin-left: 7%;
+    
      font-family: "Roboto", sans-serif;
      font-size: 20px;
 
 }
 #codei{
-     margin-left: 7%;
+    
     font-size: 40px;
     color: red;
 }
