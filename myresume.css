@@ -188,6 +188,8 @@ h2{
     color:rgb(240, 6, 6);
     
   font-family: "Alegreya Sans SC", sans-serif;
+  
+
   font-weight: bold;
   font-style:italic;
 
@@ -411,6 +413,7 @@ z-index: 1;
       height: 100vh;
     width: 100%;
     display: flex;
+    gap: 20px;
     
 
     
@@ -496,7 +499,7 @@ position: relative;
 .skills1 div{
     height: 250px;
     width: 250px;
-     border: 2px solid red;
+     border: 1px solid red;
     border-radius: 25px;
      background-color: rgb(20, 18, 20);
    /* background: linear-gradient(to left  bottom,rgb(255, 255, 255),purple);*/
@@ -531,7 +534,7 @@ position: relative;
 .skills2 div{
     height: 250px;
     width: 250px;
-    border: 2px solid red;
+    border: 1px solid red;
      border-radius: 25px;
       background-color: rgb(20, 18, 20);
       /*background: linear-gradient(to left bottom ,rgb(255, 255, 255),purple);*/
@@ -627,7 +630,31 @@ position: relative;
 .fourthpage{
        height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
+.web{
+    
+    cursor: pointer;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:rgb(0, 0, 0);
+
+    font-family: "Roboto", sans-serif;
+    margin-left: 7%;
+}
+.p3{
+    margin-left: 7%;
+     font-family: "Roboto", sans-serif;
+     font-size: 20px;
+
+}
+#codei{
+     margin-left: 7%;
+    font-size: 40px;
+    color: red;
 }
 
 
