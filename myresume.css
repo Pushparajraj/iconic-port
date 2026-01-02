@@ -204,6 +204,12 @@ span{
   font-weight: bold;
   font-style:italic;
 
+  
+     background: -webkit-linear-gradient(white,black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+
 
 }
 
@@ -499,7 +505,7 @@ position: relative;
 .skills1 div{
     height: 250px;
     width: 250px;
-     border: 1px solid red;
+     border: 2px solid red;
     border-radius: 25px;
      background-color: rgb(20, 18, 20);
    /* background: linear-gradient(to left  bottom,rgb(255, 255, 255),purple);*/
@@ -534,7 +540,7 @@ position: relative;
 .skills2 div{
     height: 250px;
     width: 250px;
-    border: 1px solid red;
+    border: 2px solid red;
      border-radius: 25px;
       background-color: rgb(20, 18, 20);
       /*background: linear-gradient(to left bottom ,rgb(255, 255, 255),purple);*/
