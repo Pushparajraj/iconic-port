@@ -508,13 +508,13 @@ position: relative;
      border: 2px solid red;
     border-radius: 25px;
      background-color: rgb(20, 18, 20);
-   /* background: linear-gradient(to left  bottom,rgb(255, 255, 255),purple);*/
+
 
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     gap: 9px;
+     gap: 10px;
      
     
 
